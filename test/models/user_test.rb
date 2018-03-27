@@ -2,7 +2,7 @@ require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
   def setup
-    @user = User.new(name: "Some One", email: "Foo@bar.com", password: "foobar", password_confirmation: "foobar")
+    @user = User.new(name: "Some One", email: "631061840@qq.com", password: "foobar", password_confirmation: "foobar")
   end
   
   def recover
